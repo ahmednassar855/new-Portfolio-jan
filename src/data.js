@@ -46,10 +46,10 @@ export const myProfile = [
 ]
 
 export const courseCertifcate = [
-    { id : 1 , src : "../public/assets/URN_00693616  _IG.png" , title : "NEBOSH IGC"},
-    { id : 2 , src : "../public/assets/Full Stack Development Track Udacity.png" , title : "Full stack Udacity"},
-    { id : 3 , src : "../public/assets/Udacity Nanodegree Graduation Certificate.png"  , title : "Udacity Nanodegree"},
-    { id : 4 , src : "../public/assets/Tailwind certificate from mindluster platform.png" , title : "Tailwind mindluster"}
+    { id : 1 , src : "assets/URN_00693616  _IG.png" , title : "NEBOSH IGC"},
+    { id : 2 , src : "assets/Full Stack Development Track Udacity.png" , title : "Full stack Udacity"},
+    { id : 3 , src : "assets/Udacity Nanodegree Graduation Certificate.png"  , title : "Udacity Nanodegree"},
+    { id : 4 , src : "assets/Tailwind certificate from mindluster platform.png" , title : "Tailwind mindluster"}
 ];
 
 
