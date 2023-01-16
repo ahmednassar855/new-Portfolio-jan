@@ -1,33 +1,7 @@
 import React, { useContext } from "react";
 import ProjectItem from "./ProjectItem";
 import { SwitchThemeContext } from './../../Context/SwitchThemeStore';
-
-const projectData = [
-  {
-    src: "../../../public/assets/project-01.jpg",
-    title: " first project",
-    siteLink: "asdsadads",
-    gitHubLink: "assaad@github",
-  },
-  {
-    src: "../../../public/assets/project-02.jpg",
-    title: " second project",
-    siteLink: "asdsadads",
-    gitHubLink: "assaad@github",
-  },
-  {
-    src: "../../../public/assets/project-03.jpg",
-    title: " third project",
-    siteLink: "asdsadads",
-    gitHubLink: "assaad@github",
-  },
-  {
-    src: "../../../public/assets/project-04.jpg",
-    title: " fourth project",
-    siteLink: "asdsadads",
-    gitHubLink: "assaad@github",
-  },
-];
+import { projectData } from './../../data';
 
 const Projects = () => {
 
@@ -49,6 +23,8 @@ const Projects = () => {
             key={idx}
             imageProject={item.src}
             title={item.title}
+            main={item.main}
+            details={item.details}
             siteLink={item.siteLink}
             gitHubLink={item.gitHubLink}
           />

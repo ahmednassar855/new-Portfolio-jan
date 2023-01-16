@@ -46,9 +46,44 @@ export const myProfile = [
 ]
 
 export const courseCertifcate = [
-
     { id : 1 , src : "../public/assets/URN_00693616  _IG.png" , title : "NEBOSH IGC"},
     { id : 2 , src : "../public/assets/Full Stack Development Track Udacity.png" , title : "Full stack Udacity"},
     { id : 3 , src : "../public/assets/Udacity Nanodegree Graduation Certificate.png"  , title : "Udacity Nanodegree"},
     { id : 4 , src : "../public/assets/Tailwind certificate from mindluster platform.png" , title : "Tailwind mindluster"}
-] 
+];
+
+
+export const projectData = [
+    {
+      src: "../../../public/assets/proj-hummty.png",
+      title: "Food App",
+      siteLink: "https://ahmednassar855.github.io/hummtyDummty/",
+      gitHubLink: "https://ahmednassar855.github.io/hummtyDummty/",
+      main: "React Js",
+      details: "using react js , api food , css stying and bootstrap",
+    },
+    {
+      src: "../../../public/assets/wather-app.png",
+      title: "Weather app",
+      siteLink: "https://ahmednassar855.github.io/weather-app-Task05/",
+      gitHubLink: "https://ahmednassar855.github.io/weather-app-Task05/@github",
+      main: "Vanilla Js",
+      details: "javaScript pure , weather food , css stying and bootstrap",
+    },
+    {
+      src: "../../../public/assets/egyptPArty01.png",
+      title: " Egypt party",
+      siteLink: "https://ahmednassar855.github.io/egyptianParty-JS06/",
+      gitHubLink: "https://ahmednassar855.github.io/egyptianParty-JS06/@github",
+      main: "Vanilla Js",
+      details: "javaScript pure + weather food",
+    },
+    {
+      src: "../../../public/assets/loginsystem01.png",
+      title: " Login System",
+      siteLink: "https://ahmednassar855.github.io/loginSystemTask-04/",
+      gitHubLink: "https://ahmednassar855.github.io/loginSystemTask-04/@github",
+      main: "Vanilla Js",
+      details: "javaScript pure , localstorag  , css styling and bootstrap",
+    },
+  ];
