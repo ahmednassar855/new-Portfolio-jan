@@ -33,7 +33,7 @@ const Main = () => {
       <div className={switchTheme ? "w-full h-screen absolute top-0 left-0 bg-white/50" :  "w-full h-screen absolute top-0 left-0 bg-black/80"  }>
       
         <div className={width <800 ? "hidden" :  " absolute right-10 top-10  flex flex-col items-center justify-center gap-2"}>
-          <img src="../../../public/assets/myLogo.png " alt=""  width={150}  className={switchTheme ? "rounded-full border-4  border-[#011139]" : "rounded-full border-4  border-stone-400"}/>
+          <img src="assets/myLogo.png " alt=""  width={150}  className={switchTheme ? "rounded-full border-4  border-[#011139]" : "rounded-full border-4  border-stone-400"}/>
           <div className="flex gap-3">
           <p className={switchTheme ? "text-[#011139] " : "text-stone-300"}>Mr.</p>
           <span className={switchTheme ? "text-[#011139] " : "text-stone-300"}>Ahmed Nassar</span>

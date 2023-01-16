@@ -55,7 +55,7 @@ export const courseCertifcate = [
 
 export const projectData = [
     {
-      src: "../../../public/assets/proj-hummty.png",
+      src: "assets/proj-hummty.png",
       title: "Food App",
       siteLink: "https://ahmednassar855.github.io/hummtyDummty/",
       gitHubLink: "https://ahmednassar855.github.io/hummtyDummty/",
@@ -63,7 +63,7 @@ export const projectData = [
       details: "using react js , api food , css stying and bootstrap",
     },
     {
-      src: "../../../public/assets/wather-app.png",
+      src: "assets/wather-app.png",
       title: "Weather app",
       siteLink: "https://ahmednassar855.github.io/weather-app-Task05/",
       gitHubLink: "https://ahmednassar855.github.io/weather-app-Task05/@github",
@@ -71,7 +71,7 @@ export const projectData = [
       details: "javaScript pure , weather food , css stying and bootstrap",
     },
     {
-      src: "../../../public/assets/egyptPArty01.png",
+      src: "assets/egyptPArty01.png",
       title: " Egypt party",
       siteLink: "https://ahmednassar855.github.io/egyptianParty-JS06/",
       gitHubLink: "https://ahmednassar855.github.io/egyptianParty-JS06/@github",
@@ -79,7 +79,7 @@ export const projectData = [
       details: "javaScript pure + weather food",
     },
     {
-      src: "../../../public/assets/loginsystem01.png",
+      src: "assets/loginsystem01.png",
       title: " Login System",
       siteLink: "https://ahmednassar855.github.io/loginSystemTask-04/",
       gitHubLink: "https://ahmednassar855.github.io/loginSystemTask-04/@github",
