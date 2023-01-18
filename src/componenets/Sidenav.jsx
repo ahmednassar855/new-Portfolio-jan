@@ -12,17 +12,17 @@ import { SwitchThemeContext } from './../Context/SwitchThemeStore';
 
 
 const menuList = [
-  { id: 1, title: "Home", icon: <AiOutlineHome size={20} />, link: "#home" },
-  { id: 2, title: "Work", icon: <GrProjects size={20} />, link: "#work" },
+  { id: 1, title: "Home", icon: <AiOutlineHome size={20} />, link: "#main" },
+  { id: 2, title: "Work", icon: <GrProjects size={20} />, link: "#works" },
   {
     id: 3,
     title: "Project",
     icon: <AiOutlineProject size={20} />,
-    link: "#project",
+    link: "#projects",
   },
-  { id: 4, title: "Resume", icon: <BsPerson size={20} />, link: "#resume" },
+  // { id: 4, title: "Resume", icon: <BsPerson size={20} />, link: "#resume" },
   {
-    id: 5,
+    id: 4,
     title: "Contact",
     icon: <AiOutlineMail size={20} />,
     link: "#contact",
@@ -43,7 +43,7 @@ const Sidenav = () => {
     <div>
       <AiOutlineMenu
         onClick={handleNav}
-        className={switchTheme ? "absolute top-4 right-4 z-[99] md:hidden text-black cursor-pointer" : "absolute top-4 right-4 z-[99] md:hidden text-white cursor-pointer" }
+        className={switchTheme ? "fixed top-4 right-4 z-[99] md:hidden text-black cursor-pointer" : "fixed top-4 right-4 z-[99] md:hidden text-white cursor-pointer" }
         fontSize={40}
         
       />  
