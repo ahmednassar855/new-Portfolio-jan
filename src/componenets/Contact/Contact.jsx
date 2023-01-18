@@ -5,13 +5,13 @@ const Contact = () => {
     let { switchTheme  } = useContext(SwitchThemeContext);
   return (
     <div id='contact' className={switchTheme ? "" : "bg-[#001b5e]"}>
-        <div className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+        <div className='max-w-[1040px] sm:w-full m-auto md:pl-20 p-4 py-16'>
         <h1 className={switchTheme ? 'py-4 text-4xl font-bold text-center text-[#001b5e]' :'py-4 text-4xl font-bold text-center text-stone-300'}>
         Contact
        </h1>
        <form action="" method='POST' encType='multipart/form-data' className={switchTheme ? "text-[#001b5e]" : "text-stone-300"}>
-        <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-            <div className='flex flex-col'>
+        <div className='md:grid md:grid-cols-2 gap-4 w-full py-2'>
+            <div className='flex flex-col md:flex-g'>
                 <label htmlFor="name" className='uppercase text-sm py-2'>Name</label>
                 <input type="text" name='name'id='name' className='border-2 rounded-lg flex border-gray-300 '/>
             </div>
