@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
+import { progileImage } from "../../data";
 import { SwitchThemeContext } from './../../Context/SwitchThemeStore';
 
 const Main = () => {
@@ -33,24 +34,24 @@ const Main = () => {
       <div className={switchTheme ? "w-full h-screen absolute top-0 left-0 bg-white/50" :  "w-full h-screen absolute top-0 left-0 bg-black/80"  }>
       
         <div className={width <800 ? "hidden" :  " absolute right-10 top-10  flex flex-col items-center justify-center gap-2"}>
-          <img src="assets/myLogo.png " alt=""  width={150}  className={switchTheme ? "rounded-full border-4  border-[#011139]" : "rounded-full border-4  border-stone-400"}/>
+          <img src={progileImage[0]} alt="logo profile"  width={150}  className={switchTheme ? "rounded-full border-4  border-[#011139]" : "rounded-full border-4  border-stone-400"}/>
           <div className="flex gap-3">
           <p className={switchTheme ? "text-[#011139] " : "text-stone-300"}>Mr.</p>
           <span className={switchTheme ? "text-[#011139] " : "text-stone-300"}>Ahmed Nassar</span>
           </div>
           
-          <Link to={'/createProfile'}  className="flex align-middle items-center gap-3 rounded-2xl px-4 py-3 border-4 border-[#011139] bg-stone-400">
+          {/* <Link to={'/createProfile'}  className="flex align-middle items-center gap-3 rounded-2xl px-4 py-3 border-4 border-[#011139] bg-stone-400">
           <FaUser className={switchTheme ? "text-[#011139] font-bold text-3xl" : " text-white font-bold text-4xl"} />
           <p className={switchTheme ? "text-[#011139] font-bold " : " text-white font-bold "}>Log out</p>
-          </Link>
+          </Link> */}
          
 
         </div>
         <div className="max-w[700px] m-auto h-full  flex flex-col justify-center lg:items-center items-center">
-          <h1 className={switchTheme ? "sm:text-5xl text-4xl font-bold text-gray-800" : "sm:text-5xl text-4xl font-bold text-stone-300"}>
+          <h1 className={switchTheme ? "sm:text-5xl text-2xl font-bold text-gray-800" : "sm:text-5xl text-4xl font-bold text-stone-300"}>
             I'm Ahmed Nassar
           </h1>
-          <h2 className={switchTheme ? "flex sm:text-3xl text-2xl pt-4" : "flex sm:text-3xl text-2xl pt-4 text-stone-300"}>
+          <h2 className={switchTheme ? "flex sm:text-3xl text-sm pt-4" : "flex sm:text-3xl text-2xl pt-4 text-stone-300"}>
             I'am a
             <TypeAnimation
               sequence={[
